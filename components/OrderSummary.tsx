@@ -15,7 +15,7 @@ const TrashIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w
 
 const OrderSummary: React.FC<OrderSummaryProps> = ({ order, totals, onUpdateQuantity, onFinalizeOrder, onClearOrder }) => {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sticky top-8">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sticky top-20">
       <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 border-b dark:border-gray-700 pb-4 mb-4">Current Order</h2>
       <div className="space-y-4 max-h-64 overflow-y-auto pr-2">
         {order.length === 0 ? (
