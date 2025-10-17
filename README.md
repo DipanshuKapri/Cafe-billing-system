@@ -1,6 +1,6 @@
 # Cafe Billing System
 
-React + Vite TypeScript demo app for cafe billing.
+React + Vite TypeScript app for cafe billing.
 
 ## Requirements
 
